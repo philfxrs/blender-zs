@@ -1,0 +1,36 @@
+{
+  "glass": {
+    "name": "QKZN_Glass",
+    "aliases": ["玻璃", "玻璃材质"],
+    "principled": {
+      "Base Color": [0.8, 0.9, 1.0, 1.0],
+      "Transmission": 1.0,
+      "Roughness": 0.05
+    }
+  },
+  "metal": {
+    "name": "QKZN_Metal",
+    "aliases": ["金属", "金属材质"],
+    "principled": {
+      "Base Color": [0.7, 0.7, 0.7, 1.0],
+      "Metallic": 1.0,
+      "Roughness": 0.2
+    }
+  },
+  "wood": {
+    "name": "QKZN_Wood",
+    "aliases": ["木纹", "木纹材质", "木材"],
+    "principled": {
+      "Base Color": [0.5, 0.3, 0.1, 1.0],
+      "Roughness": 0.6
+    }
+  },
+  "plastic": {
+    "name": "QKZN_Plastic",
+    "aliases": ["塑料", "塑料材质"],
+    "principled": {
+      "Base Color": [0.9, 0.9, 0.9, 1.0],
+      "Roughness": 0.4
+    }
+  }
+}
